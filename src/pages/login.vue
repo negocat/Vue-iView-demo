@@ -49,10 +49,10 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Login',
   data () {
     return {
-      msg: '图书馆',
+      msg: '登录',
       verifyCode: 'hello',
       formItem: {
         account: '',
@@ -160,7 +160,7 @@ export default {
   Form{
     margin:0 auto;
     width:350px;
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     padding:50px 0;
     /*background-color:red;*/
   }
